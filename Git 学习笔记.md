@@ -263,7 +263,7 @@ $ git commit -m "wrote a readme file"
 - **合并分支**：
   `git merge [branch-name]` 合并指定分支到当前分支。
 - **查看日志**：
-- `git log` 查看提交历史。
+  `git log` 查看提交历史。
 - **撤销操作**：
   `git reset` 可以撤销提交或修改。*==记忆点:<reset：重建 ~~ 撤销提交或修改>==*
 
