@@ -63,3 +63,27 @@
 ==Github进一步学习==
 
 [Github进一步学习](https://github.com/rgfdhkh/Tasks/blob/main/GitHub-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md "https://github.com/rgfdhkh/Tasks/blob/main/GitHub-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md")
+
+
+
+## Geek考核阶段三：
+
+### *📑任务内容*
+
+1. *产出阶段三对应的学习笔记，并上传到 `Github` 的仓库中，做好 `README` 索引。*
+2. ***动手实践写一个简单的页面，自己来决定写什么 demo** ，代码上传到 Tasks 仓库中。*
+3. *通过 `Github` 仓库的 `Pages` 把这个 demo 挂载上去。（即通过 `你的github名称.github.io` 可以在浏览器中访问。）*
+4. ***[23级必做/24级学有余力-进阶]** 结合三件套（HTML+ CSS + JavaScript）在浏览器上的执行逻辑，重新思考 markdown 的原理，写下你的新体验*
+5. ***[23级与24级学有余力-进阶]** 关注 `typora` 的主题更换方式，尝试自己 `DIY` 一个【作加分项】*
+
+***❗注意：面对 BUG 恐惧最好的办法就是面对恐惧，不要放弃，做到现在已经很棒了，加油，奥!*
+
+
+
+==HTML 学习笔记==
+
+[HTML 学习笔记.md](https://github.com/rgfdhkh/Tasks/blob/main/HTML-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md "https://github.com/rgfdhkh/Tasks/blob/main/HTML-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md")
+
+==CSS 学习笔记==
+
+[CSS 学习笔记.md](https://github.com/rgfdhkh/Tasks/blob/main/CSS-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md "https://github.com/rgfdhkh/Tasks/blob/main/CSS-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md")
