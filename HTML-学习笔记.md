@@ -1292,6 +1292,183 @@ section {
 
 
 
+## 八、HTML 代码规范
+
+**一、文档结构**
+
+* DOCTYPE 声明
+  * 始终在 HTML 文档的开头使用正确的 DOCTYPE 声明，以确保浏览器能够正确地渲染页面。对于 HTML5，使用`<!DOCTYPE html>`。例如：
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+```
+
+* html 标签
+  * `html`标签是 HTML 文档的根标签，应该包含`lang`属性来指定文档的语言。常见的语言代码有`en`（英语）、`zh - CN`（中文 - 中国大陆）等。例如：
+
+```html
+<html lang="en">
+    <head>...</head>
+    <body>...</body>
+</html>
+```
+
+* head 标签
+  * 用于包含文档的元数据，如标题（`title`）、样式表（`link`）、脚本（`script`）等。
+  * `meta`标签用于提供关于文档的各种信息，如字符编码（`charset`）和视口设置（`viewport`）。例如：
+
+```html
+<head>
+    <meta charset="UTF - 8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+</head>
+```
+
+* body 标签
+  * 包含网页中所有可见的内容，如文本、图像、链接、表单等。
+
+**二、标签和属性**
+
+1. 标签命名
+   - 标签名应该全部小写，这是 HTML5 的标准。例如，使用`<div>`而不是`<DIV>`。
+   - 标签应该具有语义，根据内容的性质选择合适的标签。例如，使用`<article>`表示独立的文章内容，`<nav>`表示导航链接等。
+2. 属性命名
+   - 属性名也应该全部小写。例如，使用`src`属性而不是`SRC`。
+   - 属性值应该用双引号（`"`）包围，例如：`<img src="image.jpg" alt="A beautiful picture">`。
+   - 尽量避免使用废弃的属性。例如，在 HTML5 中，不建议使用`align`属性来对齐元素，而是使用 CSS 来实现对齐。
+3. 自闭合标签
+   - 对于没有内容的自闭合标签，如`<img>`、`<input>`、`<br>`等，应该在标签结尾添加`/`。例如：`<img src="image.jpg" alt="A beautiful picture" />`。不过，在 HTML5 中，自闭合标签结尾的`/`是可选的，但为了保持一致性，建议添加。
+
+**三、代码缩进和格式**
+
+* 缩进
+  * 使用 2 - 4 个空格进行缩进，以增强代码的可读性。例如，当有嵌套标签时：
+
+```html
+<div>
+    <p>
+        This is a paragraph.
+    </p>
+</div>
+```
+
+* 换行
+  * 每个标签和属性应该独占一行，尤其是对于较长的标签和属性列表，这样可以使代码更清晰。例如：
+
+```html
+<a href="https://example.com"
+    target="_blank"
+    rel="noopener noreferrer">
+    Click here
+</a>
+```
+
+* 空格的使用
+  * 在标签和属性之间添加一个空格。例如，`<div class="container">`而不是`<div class="container">`。
+  * 在属性值中的单词之间，如果需要，可以使用连字符（`-`）而不是空格。例如，`data - my - value`。
+
+**四、语义化 HTML**
+
+* 标题标签
+  * 正确使用标题标签（`<h1>` - `<h6>`）来表示文档的结构。`<h1>`应该用于表示页面的主要标题，每个页面通常只有一个`<h1>`标签。例如：
+
+```html
+<h1>Main Page Title</h1>
+<h2>Section Title</h2>
+```
+
+* 段落和文本标签
+  * 使用`<p>`标签来表示段落。对于强调文本，可以使用`<em>`（斜体强调）或`<strong>`（加粗强调）。例如：
+
+```html
+<p>This is a <em>very important</em> paragraph.</p>
+```
+
+* 列表标签
+  * 根据列表的类型使用`<ul>`（无序列表，通常用项目符号）或`<ol>`（有序列表，通常用数字）。列表项使用`<li>`标签。例如：
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+```
+
+* 表格标签
+  * 正确使用`<table>`、`<tr>`（行）、`<td>`（单元格）等标签来构建表格。如果表格有表头，使用`<th>`标签。例如：
+
+```html
+<table>
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+    </tr>
+</table>
+```
+
+**五、链接和图像**
+
+* 链接（`<a>`标签）
+  * 链接的`href`属性应该包含有效的 URL 或相对路径。例如：`<a href="https://example.com">Visit Example</a>`。
+  * 对于链接到其他页面的链接，应该添加`target="_blank"`和`rel="noopener noreferrer"`属性，以防止安全问题并在新窗口或标签中打开链接。例如：
+
+```html
+<a href="https://example.com" target="_blank" rel="noopener noreferrer">
+    Visit Example in a new window
+</a>
+```
+
+* 图像（`<img>`标签）
+  * `src`属性应该包含图像文件的正确路径。添加`alt`属性来提供图像的替代文本，这对于屏幕阅读器和图像无法加载的情况很重要。例如：
+
+```html
+<img src="image.jpg" alt="A beautiful picture">
+```
+
+**六、表单元素**
+
+* 表单标签（`<form>`）
+  * 表单标签应该包含`action`属性，指定表单数据提交的 URL，和`method`属性（通常是`post`或`get`）来确定提交数据的方式。例如：
+
+```html
+<form action="submit.php" method="post">
+    <!-- 表单元素 -->
+</form>
+```
+
+* 输入元素（`<input>`等）
+  * 根据输入类型（如`text`、`password`、`email`等）正确设置`type`属性。例如：
+
+```html
+<input type="text" name="username" placeholder="Enter your username">
+```
+
+  * 对于必填字段，添加`required`属性。例如：
+
+```html
+<input type="email" name="email" required>
+```
+
+这些规范有助于创建结构清晰、易于维护和可访问性高的 HTML 代码。在实际项目中，可以根据团队的具体要求和项目特点进行适当的调整。
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## *注释
 
 [^1]: 标准标记语言是一种用于描述文档结构和内容的**语言规范**。它通过特定的标记符号来标识文档中的不同元素，如标题、段落、列表等，以便计算机能够理解和处理文档的结构和内容。常见的标准标记语言有 HTML（超文本标记语言）、XML（可扩展标记语言）等。标准标记语言的目的是提供一种统一的方式来表示文档，使得不同的软件和系统能够正确地解析和显示文档内容。
