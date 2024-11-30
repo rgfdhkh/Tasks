@@ -88,14 +88,27 @@
 
 [CSS 学习笔记.md](https://github.com/rgfdhkh/Tasks/blob/main/CSS-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md "https://github.com/rgfdhkh/Tasks/blob/main/CSS-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md")
 
-==JavaScript 学习笔记==
 
-[JavaScript 学习笔记.md](https://github.com/rgfdhkh/Tasks/blob/main/JavaScript-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md "https://github.com/rgfdhkh/Tasks/blob/main/JavaScript-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md")
 
-==自制小网页demo==
+## Geek考核阶段三：
 
-[index.html](https://github.com/rgfdhkh/Tasks/blob/main/index.html "https://github.com/rgfdhkh/Tasks/blob/main/index.html")
+### *📑任务内容*
 
-[styles.css](https://github.com/rgfdhkh/Tasks/blob/main/styles.css "https://github.com/rgfdhkh/Tasks/blob/main/styles.css")
+1. *复刻 Geek 组旧版的招新网站 👉 [复刻网站的资料](https://github.com/ntgeek/2024-Geek/blob/first_half_tasks/复刻招新网站要求点.zip)*
+2. *把做好的网页挂载在 `Github Pages` 上，并将对应的网页链接记录在 `Tasks` 仓库 `README` 文档中*
+3. ***[23级必做/24级学有余力-进阶]** 在 PC 端页面适配良好的基础下尝试适配移动端的页面*
 
-[script.js](https://github.com/rgfdhkh/Tasks/blob/main/script.js "https://github.com/rgfdhkh/Tasks/blob/main/script.js")
+*❗**注意：尽量不要做 `DDL` 战士，很累很痛苦的***
+
+*❤友情提示：*
+
+1. *记得写注释*
+2. *记得写注释*
+3. *记得写注释==*==
+
+
+
+==复刻网站源代码==
+
+[复刻网站源代码](https://github.com/rgfdhkh/Tasks/tree/main/%E5%A4%8D%E5%88%BB%E7%BD%91%E7%AB%99 "https://github.com/rgfdhkh/Tasks/tree/main/%E5%A4%8D%E5%88%BB%E7%BD%91%E7%AB%99")
+
