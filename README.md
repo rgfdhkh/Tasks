@@ -23,7 +23,7 @@
 
 ==**Markdown**学习笔记(基于Typora)：==
 
-[Typola-习题.md](https://github.com/rgfdhkh/Tasks/blob/main/Typora-%E4%B9%A0%E9%A2%98.md)  
+[Typora-习题.md](https://github.com/rgfdhkh/Tasks/blob/main/Typora-%E4%B9%A0%E9%A2%98.md)  
 
 [Typora-教学内容.md](https://github.com/rgfdhkh/Tasks/blob/main/Typora-%E6%95%99%E5%AD%A6%E5%86%85%E5%AE%B9.md)   
 
