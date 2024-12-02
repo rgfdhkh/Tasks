@@ -68,6 +68,32 @@
 
 ## Geek考核阶段三：
 
+🛒学习内容：【重点放在 HTML 与 CSS ；JavaScript 此阶段了解学习即可】
+HTML
+学习并能够使用常用的 HTML 标签 如（ <div>、<p>、<a>、<button> 等等 ） 【重点】
+学习理解各类标签中的块级元素与内联元素 【重点】
+学习 HTML 标签的样式 【重点】
+CSS
+学习理解 CSS 的作用 【重点】
+学习理解 CSS 选择器 （此阶段学习通用选择器、元素选择器、类选择器、ID选择器即可） 【重点】
+能够利用 CSS 设置元素的基础样式，如大小、颜色、文字字体等
+学习理解 CSS 的盒模型 【重点】
+CSS 的5种 position 定位 【重点】
+了解 CSS 常用的布局方式
+CSS 的伪类
+JavaScript（可以和 C 语言去类比，任何语言学习都离开这些，所以不要害怕）
+学习 JavaScript 基本语法
+了解 JavaScript 数据类型
+字符串（String）
+数字（Number）
+布尔（Boolean）
+Null
+Undefined
+对象（Object）
+数组（Array）
+了解 HTML / CSS / JavaScript 三者之间的关系 【重点】
+学习使用 Github 的 Pages 功能展示你的静态页面 【重点】
+
 ### *📑任务内容*
 
 1. *产出阶段三对应的学习笔记，并上传到 `Github` 的仓库中，做好 `README` 索引。*
