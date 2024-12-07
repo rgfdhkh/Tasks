@@ -123,7 +123,9 @@
 
 [CSS 学习笔记.md](https://github.com/rgfdhkh/Tasks/blob/main/CSS-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md "https://github.com/rgfdhkh/Tasks/blob/main/CSS-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md")
 
+##### JavaScript 学习笔记
 
+[JavaScript 学习笔记.md](https://github.com/rgfdhkh/Tasks/blob/main/JavaScript-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md "https://github.com/rgfdhkh/Tasks/blob/main/JavaScript-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md")
 
 ## Geek考核阶段四：
 
