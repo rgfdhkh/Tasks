@@ -72,7 +72,7 @@
 
 ## Geek考核阶段三：
 
-#### 🛒学习内容：【重点放在 HTML 与 CSS ；JavaScript 此阶段了解学习即可】
+### 🛒学习内容：【重点放在 HTML 与 CSS ；JavaScript 此阶段了解学习即可】
 
 
 
